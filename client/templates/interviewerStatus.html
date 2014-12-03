@@ -1,0 +1,58 @@
+<template name="interviewerStatus">
+  <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Individual Interviewer Status</h4>
+                    <form class="form-horizontal">
+                      <fieldset>
+
+                      <!-- Select Basic -->
+                      <div class="control-group">
+                        <label class="control-label" for="selectbasic">Name</label>
+                        <div class="controls">
+                          <select id="selectbasic" name="selectbasic" class="input-xlarge">
+                            <option>Jack Sparrow</option>
+                            <option>John Carter</option>
+                            <option>James Bond</option>
+                          </select>
+                        </div>
+                      </div>
+
+                      </fieldset>
+                      </form>
+                      <table class="table">
+                          <thead>
+                              <tr>
+                                  <th>Competency</th>
+                                  <th>Shadow 1</th>
+                                  <th>Shadow 2</th>
+                                  <th title="Reverse Shadow 1">R Shadow 1</th>
+                                  <th title="Reverse Shadow 2">R Shadow 2</th>
+                                  <th>Independent</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>PS, DSA and Coding</td>
+                                  <td><span class="sub_icon glyphicon glyphicon-ok"></span></td>
+                                  <td>In progress</td>
+                                  <td>-</td>
+                                  <td>-</td>
+                                  <td>No</td>
+                              </tr>
+                              <tr>
+                                  <td>Architecture</td>
+                                  <td><span class="sub_icon glyphicon glyphicon-ok"></span></td>
+                                  <td><span class="sub_icon glyphicon glyphicon-ok"></span></td>
+                                  <td><span class="sub_icon glyphicon glyphicon-ok"></span></td>
+                                  <td><span class="sub_icon glyphicon glyphicon-ok"></span></td>
+                                  <td>Yes</td>
+                              </tr>
+                          </tbody>
+                      </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

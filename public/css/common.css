@@ -1,0 +1,74 @@
+#iron-router-progress {
+    background-color : #1441b3;
+    box-shadow       : 0 0 5px #0088cc;
+}
+.group-container{
+  border:1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 10px 10px;
+}
+.group-segment{
+  padding: 10px 0;
+}
+.group-add{
+  background:#eee;
+}
+.group-add a{
+  border-top:1px solid #ccc;
+  display:block;
+  padding: 10px;
+  text-align:center;
+}
+.group-add a:hover{
+  text-decoration:none;
+}
+/******overrides ******/
+#login-buttons{
+  width:500px;
+}
+.login-close-text{
+  display:none;
+}
+.accounts-dialog{
+  box-shadow:none;
+  -webkit-box-shadow:none;
+  width: 500px;
+  margin: 0;
+  border: 0;
+}
+#login-buttons .configure-button{
+  padding: 10px 0;
+}
+#login-buttons input[type=text], .accounts-dialog input[type=text], #login-buttons input[type=email], .accounts-dialog input[type=email], #login-buttons input[type=password], .accounts-dialog input[type=password]{
+  padding: 10px 5px;
+}
+#login-buttons .login-button, .accounts-dialog .login-button{
+  padding: 10px 5px;
+}
+
+.container{
+  margin: 20px 50px;
+}
+.faqs{
+  border: #ccc 1px solid;
+  border-radius: 5px;
+}
+ul.faqs{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.faqs li{
+  border-bottom: #ccc 1px solid;
+}
+.faqs li.last{
+  border-bottom:none;
+}
+.faqs .panel-title{
+  margin:0;
+  padding: 10px;
+  background: #f9f9f9;
+}
+.faqs .panel-body{
+  padding: 10px;
+}

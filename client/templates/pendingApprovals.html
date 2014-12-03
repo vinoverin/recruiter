@@ -1,0 +1,53 @@
+<template name="pendingApprovals">
+  <div id="page-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h4>Approvals</h4>
+                    <form class="form-horizontal">
+                        <fieldset>
+
+                        <!-- Select Basic -->
+                        <div class="control-group">
+                          <label class="control-label" for="team">Team</label>
+                          <div class="controls">
+                            <select id="team" name="team" class="input-xlarge">
+                              <option>CP</option>
+                              <option>SP</option>
+                              <option>RP</option>
+                            </select>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vijay</td>
+                                <td>Approved</td>
+                            </tr>
+                            <tr>
+                                <td>Joseph</td>
+                                <td><button name="approve" class="btn btn-primary btn-approve">Approve</button></td>
+                            </tr>
+                            <tr>
+                                <td>Shiva</td>
+                                <td><button name="approve" class="btn btn-primary btn-approve">Approve</button></td>
+                            </tr>
+                            <tr>
+                                <td>Sandeep</td>
+                                <td>Approved</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,149 @@
+<template name="employeeDetail">
+  <form class="form-horizontal">
+    <fieldset>
+
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="ename">Name</label>
+
+            <div class="col-md-6">
+                <input id="ename" name="ename" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="ecompetency">Competency</label>
+
+            <div class="col-md-6">
+                <input id="ecompetency" name="ecompetency" type="text" placeholder="" class="form-control input-md">
+
+            </div>
+        </div>
+        <div class="group-container">
+          <div class="group-segment">
+            <!-- Prepended checkbox -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="shadow1">Shadow 1</label>
+
+                <div class="col-md-2">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <input type="checkbox" checked="checked">
+                        </span>
+                        <input id="shadow1" name="shadow1" class="form-control" type="text" placeholder="Completed">
+                    </div>
+
+                </div>
+
+                  <label class="col-md-3 control-label" for="shadow1Panel">Panel</label>
+
+                  <div class="col-md-2">
+                      <select id="shadow1Panel" name="shadow1Panel" class="form-control">
+                          <option value="1">Option one</option>
+                          <option value="2">Option two</option>
+                      </select>
+                  </div>
+            </div>
+
+            <!-- Prepended checkbox -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="shadow2">Shadow 2</label>
+
+                <div class="col-md-2">
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <input type="checkbox">
+                        </span>
+                        <input id="shadow2" name="shadow2" class="form-control" type="text" placeholder="In Progress">
+                    </div>
+
+                </div>
+                <label class="col-md-3 control-label" for="shadow2Panel">Panel</label>
+
+                <div class="col-md-2">
+                    <select id="shadow2Panel" name="shadow2Panel" class="form-control">
+                        <option value="1">Option one</option>
+                        <option value="2">Option two</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <button id="cna" name="cna" class="btn btn-inverse">Could not attend</button>
+                </div>
+            </div>
+          </div>
+            <div class="group-add">
+              <a href="">+ Need More Shadows</a>
+            </div>
+        </div>
+
+        <div class="group-container">
+          <div class="group-segment">
+
+              <!-- Prepended checkbox -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label" for="reverseShadow1">Reverse Shadow 1</label>
+
+                  <div class="col-md-2">
+                      <div class="input-group">
+                          <span class="input-group-addon">
+                              <input type="checkbox">
+                          </span>
+                          <input id="reverseShadow1" name="reverseShadow1" class="form-control" type="text"
+                                 placeholder="yet to start">
+                      </div>
+
+                  </div>
+                    <label class="col-md-3 control-label" for="rs1Panel">Panel</label>
+
+                    <div class="col-md-2">
+                        <select id="rs1Panel" name="rs1Panel" class="form-control">
+                            <option value="1">Option one</option>
+                            <option value="2">Option two</option>
+                        </select>
+                    </div>
+              </div>
+
+              <!-- Prepended checkbox -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label" for="reverseShadow2">Reverse Shadow 2</label>
+
+                  <div class="col-md-2">
+                      <div class="input-group">
+                          <span class="input-group-addon">
+                              <input type="checkbox">
+                          </span>
+                          <input id="reverseShadow2" name="reverseShadow2" class="form-control" type="text"
+                                 placeholder="yet to start">
+                      </div>
+
+                  </div>
+                  <label class="col-md-3 control-label" for="rs2Panel">Panel</label>
+
+                  <div class="col-md-2">
+                      <select id="rs2Panel" name="rs2Panel" class="form-control">
+                          <option value="1">Option one</option>
+                          <option value="2">Option two</option>
+                      </select>
+                  </div>
+              </div>
+          </div>
+          <div class="group-add">
+            <a href="">+ Need More Reverse Shadows</a>
+          </div>
+      </div>
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="Submit"></label>
+
+            <div class="col-md-4">
+                <button id="Submit" name="Submit" class="btn btn-primary btn-large">Submit</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+
+</template>

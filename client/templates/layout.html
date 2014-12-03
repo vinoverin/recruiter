@@ -1,0 +1,16 @@
+<head>
+  <link rel="stylesheet" type="text/css" class="" href="/css/common.css">
+</head>
+<template name="layout">
+  <header>
+    {{> yield region='header'}}
+  </header>
+
+  <div>
+    {{> yield}}
+  </div>
+
+  <footer>
+    {{> yield region='footer'}}
+  </footer>
+</template>

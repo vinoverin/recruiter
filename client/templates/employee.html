@@ -1,0 +1,71 @@
+<template name="employee">
+  <form class="form-horizontal">
+    <fieldset>
+
+      <!-- Button (Double) -->
+      <div class="form-group">
+          <label class="col-md-4 control-label" for="teamStatus"></label>
+
+          <div class="col-md-8">
+              <button id="teamStatus" name="edit" class="btn btn-primary btn-large">View Team Status</button>
+          </div>
+      </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="ename">Name</label>
+
+            <div class="col-md-6">
+                <input id="ename" name="ename" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="empid">Emp ID</label>
+
+            <div class="col-md-6">
+                <input id="empid" name="empid" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Select Multiple -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="competency">Competencies Handle</label>
+
+            <div class="col-md-6">
+                <select id="competency" name="competency" class="form-control" multiple="multiple">
+                    <option value="UICO101">PS, DSA and Coding</option>
+                    <option value="UICO102">UI Tech</option>
+                    <option value="UICO103">Product Sense</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="status">Status</label>
+
+            <div class="col-md-6">
+                <div id="status" class="form-text input-md status">
+                  Shadow 1
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Button (Double) -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="edit"></label>
+
+            <div class="col-md-8">
+                <button id="edit" name="edit" class="btn btn-primary btn-medium">Edit your profile</button>
+                <button id="detail" name="detail" class="btn btn-info btn-medium btn-detail">View detail</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+</template>
